@@ -37,11 +37,3 @@ export type OnchainStoreCartReact = {
   setShowModal?: (value: boolean) => void;
   showModal?: boolean;
 };
-
-export type OnchainStoreModalReact = {
-  closeModal: () => void;
-};
-
-export type MockCheckoutButtonReact = {
-  onClick: () => void;
-};
